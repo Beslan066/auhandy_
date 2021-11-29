@@ -1,0 +1,16 @@
+.found .container {
+  background: #f9f9f9;
+}
+
+.flex-column {
+  max-width: 260px;
+}
+
+.found img {
+  margin: 5px;
+}
+
+.found .scale {
+  transform: scaleY(1.05);
+  padding-top: 5px; 
+}

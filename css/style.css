@@ -1,0 +1,241 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+
+
+}
+/*   Стили для блока с хедором    */
+
+header {
+    background-color: #3f5a3f;
+    color: #fff;
+    height: 75px;
+
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 15px;
+}
+
+ul a {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/*   Стили для блока с информацией    */
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info .wrapper {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.img {
+    width: 300px;
+    height: 400px;
+    background: grey;
+    margin-right: 50px;
+}
+
+.info-p {
+    width: 950px;
+    margin-top: -17px;
+}
+
+/*   Стили для блока с наградами    */
+
+.awards .wrapper {
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.awards .cardo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 20px;
+
+    
+}
+
+.awards-text {
+    width: 130px;
+    height: 200px;
+}
+
+.awards .card-img {
+    width: 230px;
+    height: 280px;
+    background: grey;
+    margin-right: 15px;
+}
+
+/*   Стили для блока с редакторами    */
+
+.editors {
+    background: #f2f2f2;
+    color: #333;
+    display: flex;
+    height: 320px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.editors .cardo {
+    width: 350px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.editor-img {
+    width: 200px;
+    height: 250px;
+    background-color: black;
+}
+
+.editor-img img{
+    width: 200px;
+    height: 250px;
+}
+
+
+.editors .cardo p {
+    margin-left: 20px;
+    margin-top: -3px;
+    width: 95px;
+    height: 150px;
+    font-size: 14px;
+}
+
+.left-arrow {
+    margin-left: 15px;
+}
+
+.right-arrow {
+    margin-right: 15px;
+}
+
+.arrow {
+    font-size: 70px;
+    margin-top: 110px;
+    
+}
+
+
+/* Стили к экспонатам */
+
+
+.found h2 {
+    margin-bottom: 20px;
+    margin-left: 420px;
+}
+
+.found button {
+    margin-bottom: 20px;
+    margin-left: 850px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #3f5a3f;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/*   */
+
+.newspapers  button {
+    margin-bottom: 20px;
+    margin-left: 550px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #3f5a3f;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+
+/*    */
+
+footer {
+    background-color: #3f5a3f;
+    height: 500px;
+}
+
+footer .wrapper {
+    display: flex;
+}
+
+
+
+footer form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer input {
+    width: 250px;
+    height: 40px;
+    color: #333;
+    
+    outline:none;
+}
+
+
+footer button {
+    width: 150px;
+    height: 50px;
+    color: #333;
+    background-color: #fff;
+    outline:none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+
+#map {
+    width: 500px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+
+
+
